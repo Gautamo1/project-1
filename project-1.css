@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    color: #f9f8fa;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.links_header {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.links_header a{
+    color: #e5e7eb;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.hero_section {
+    background-color: #1f2937;
+    display: flex;
+     padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 30px;
+    height: 400px;
+}
+
+.title {
+    font-size: 48px;
+    color: #f9f8fa;
+    font-weight: 900;
+    max-width: 370px;
+}
+
+.description {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.signup {
+    background-color: #3882f6;
+    text-align: center;
+    height: 35px;
+    width: 100px;
+    color: #f9f8fa;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid white;
+}
+
+.placeholder{
+    height:250px;
+    width: 1250px;
+    color: black;
+    background-color:grey ;
+    padding: 100px; ;
+    text-align: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column; /* Stack .infor and .cards vertically */
+    gap: 20px; /* Space between .infor and .cards */
+    align-items: center; /* Center content horizontally */
+    padding: 150px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items to the next line if needed */
+    gap: 75px; /* Space between cards */
+    justify-content: space-between; /* Center cards in the container */
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center-align image and text */
+    max-width: 150px; /* Limit the card width */
+    text-align: center; /* Center-align the text */
+}
+
+.info_img {
+    width: 100%; /* Make the image responsive to the card's width */
+    border-radius: 10px; /* Optional: Add rounded corners to the image */
+}
+
+.text {
+    margin-top: 10px; /* Add some space between the image and text */
+}
+
+.infor {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    font-style: light italic;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 36px;
+}
+
+.ath {
+    display: flex;
+    font-weight: 900;
+    justify-content: end;
+    align-self: flex-end;
+
+}
+
+.org {
+    max-width: 1000px;
+}
+
+.call {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    margin: 100px;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.game {
+    color: #e5e7eb;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.game2 {
+    color: #e5e7eb;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
